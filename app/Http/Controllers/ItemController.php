@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 class ItemController extends Controller
 {
     private $items = [
-        ['id' => 1, 'name' => 'Item A'],
-        ['id' => 2, 'name' => 'Item B'],
-        ['id' => 3, 'name' => 'Item C'],
+        ['id' => 1, 'name' => 'Item a'],
+        ['id' => 2, 'name' => 'Item b'],
+        ['id' => 3, 'name' => 'Item c'],
     ];
 
     public function index()
